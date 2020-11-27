@@ -167,7 +167,7 @@ const generateRepoListingMarkup = (repoListings = []) =>
   fetch("https://api.github.com/graphql", {
     method: "post",
     headers: {
-      authorization: "Bearer 478087d9bba09f3d39884a2725a0792ae220ce50",
+      authorization: "Bearer  cd1d8f6cf5062248fa45364222afbf6fc3f2d661",
     },
     body: JSON.stringify({
       query: `{
